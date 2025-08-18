@@ -4,7 +4,12 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 ## Syllabus
 
-* You can find the Syllabus here in [PDF](https://github.com/joycqy/R_Review_2025/blob/9cf851dfd02da584c4f5ee420640c46b8d09cbcf/Syllabus_R_Review_2025.pdf) format. 
+* You can find the Syllabus here in [PDF](https://github.com/joycqy/R_Review_2025/blob/9cf851dfd02da584c4f5ee420640c46b8d09cbcf/Syllabus_R_Review_2025.pdf) format.
+
+## Lecture Slides
+
+- Lecture 0: [Source Code](lec0); [Website Page](https://joycqy.github.io/Lec0.html#/title-slide)
+- 
 
 ## Data
 
