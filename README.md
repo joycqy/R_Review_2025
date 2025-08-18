@@ -21,7 +21,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 ## Recommended Textbooks
 
-* References
+### References
 
 - [R for Data Science (2e)](https://r4ds.hadley.nz/) and [Solutions to Exercises](https://mine-cetinkaya-rundel.github.io/r4ds-solutions/)
   - This book mostly uses the `dplyr` package, which we will not cover in this course (we use the `data.table` package instead). Still, some chapters are useful for learning the basics of R. Specifically, see:
@@ -39,7 +39,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 - [Matloff, Norman. *The Art of R Programming: A Tour of Statistical Software Design.* No Starch Press, 2011. (PDF)](https://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)
 
 
-* Syntax Cheat Sheet
+### Syntax Cheat Sheet
 
 - [Basic R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
 - [Data Transformation with data.table](https://www.beoptimized.be/pdf/R_Data_Transformation.pdf)
