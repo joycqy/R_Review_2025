@@ -8,7 +8,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 ## Lecture Slides
 
-- Lecture 0: [Source Code](lec0); [Website Page](https://joycqy.github.io/Lec0.html#/title-slide)
+- Lecture 0: [Source Code](Lecture_0); [Website Page](https://joycqy.github.io/Lec0.html#/title-slide)
 - 
 
 ## Data
