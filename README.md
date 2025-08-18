@@ -20,7 +20,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 * You can view the slides in HTML to use the interactive features, or download a static PDF version. The source code is also provided for your reference.
 
-  - Lecture 0: [html](https://joycqy.github.io/Lec0.html#/title-slide); [Source Code](Lecture_0) ; [PDF](https://joycqy.github.io/Lec0.html?print-pdf)
+  - Lecture 0: [html](https://joycqy.github.io/Lec0.html); [Source Code](Lecture_0) ; [PDF](https://joycqy.github.io/Lec0.html?print-pdf)
   - Lecture 1:  
 
 ## Data for Class Use
