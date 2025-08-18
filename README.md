@@ -21,15 +21,30 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 ## Recommended Textbooks
 
-* We will not use slides very often except in the first lecture. If we use a slide, it is just for transition. I upload the source code for the first lecture in `LaTex-Beamer` [here](welcome_slides). Feel free to use it as a template as your own purpose.
+* References
 
-* For the rest of the class, our class notes will be provided using `R markdown`, which can be found in this repository and also on Canvas.
+- [R for Data Science (2e)](https://r4ds.hadley.nz/) and [Solutions to Exercises](https://mine-cetinkaya-rundel.github.io/r4ds-solutions/)
+  - This book mostly uses the `dplyr` package, which we will not cover in this course (we use the `data.table` package instead). Still, some chapters are useful for learning the basics of R. Specifically, see:
+    - [Chapter 2: Workflow: basics](https://r4ds.hadley.nz/workflow-basics.html)
+    - [Chapter 6: Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts.html)
+    - [Chapter 25: Functions](https://r4ds.hadley.nz/functions.html)
+    - [Chapter 26: Iteration](https://r4ds.hadley.nz/iteration.html)
+    - [Chapter 27: A field guide to base R](https://r4ds.hadley.nz/base-R.html)
 
-* The lectures will be recorded, and the videos will be shared on YouTube with an unlisted link.
+- [Introduction to data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)
+- [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
+- [The R Graph Gallery](https://r-graph-gallery.com/index.html)
+- [Modern Data Visualization with R](https://rkabacoff.github.io/datavis/)
+- [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
+- [Matloff, Norman. *The Art of R Programming: A Tour of Statistical Software Design.* No Starch Press, 2011. (PDF)](https://diytranscriptomics.com/Reading/files/The%20Art%20of%20R%20Programming.pdf)
 
-* Useful tools with source code have been published [here](useful_tools).
-  
-* Lecture notes can also be found on my [personal website](https://www.lifengren.com/lec0.html).
+
+* Syntax Cheat Sheet
+
+- [Basic R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)
+- [Data Transformation with data.table](https://www.beoptimized.be/pdf/R_Data_Transformation.pdf)
+- [Data Visualization with ggplot2](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)
+- [R Markdown Cheat Sheet](https://rmarkdown.rstudio.com/lesson-15.HTML)
 
 
 ## Lecture Structure
