@@ -1,6 +1,6 @@
 # Introduction to R Statistical Analysis Software (2025)
 
-This is the home repository for the R-review class for incoming Ph.D. students in 2023.
+This is the home repository for the R-review class for incoming Ph.D. students in 2025.
 
 ## Syllabus
 
@@ -8,22 +8,18 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 ## Lecture Slides
 
-- Lecture 0: [Source Code](Lecture_0); [Website Page](https://joycqy.github.io/Lec0.html#/title-slide)
-- 
+* You can view the slides in HTML to use the interactive features, or download a static PDF version. The source code is also provided for your reference.
 
-## Data
+  - Lecture 0: [html](https://joycqy.github.io/Lec0.html#/title-slide); [Source Code](Lecture_0) 
+  - Lecture 1:  
 
-In this class, we will mostly use the public dataset, and I will either send the data to you through email or I will guide you to download the data during the lecture. 
+## Data for Class Use
 
-## Code
+* We’ll be working with public datasets in this class. I’ll upload it here so you can download.
 
-In this class, I will provide you with an R-script file with Skeleton Code for you to start. And I will also provide an R-markdown file provided with a more detailed explanation. 
+  - Lecture 1: [data]() 
 
-- `R script` is the place for you to play with the code.
-- `R markdown` and the rendered `html` file are the study guides.
-  - Note: You need to `Knit` the `Rmd` file to re-render the `html` file to open on your own browser: Use Chrome. Don't use Safari. 
-
-## Other Materials
+## Recommended Textbooks
 
 * We will not use slides very often except in the first lecture. If we use a slide, it is just for transition. I upload the source code for the first lecture in `LaTex-Beamer` [here](welcome_slides). Feel free to use it as a template as your own purpose.
 
