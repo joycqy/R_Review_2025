@@ -29,7 +29,8 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
 * We’ll be working with public datasets in this class. I’ll upload it here so you can download.
 
-  - Lecture 1: [data](Data/data_lec1.zip) 
+  - Lecture 1: [data](Data/data_lec1.zip)
+  - Lecture 3: [data](Data/data_lec3.zip) 
 
 
 ## Recommended Textbooks
