@@ -31,7 +31,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
   - Lecture 1: [data](Data/data_lec1.zip)
   - Lecture 3: [data](Data/data_lec3.zip)
-  - Lecture 4: [materials](Data/practice_modelsummary_html.qmd)
+  - Lecture 4: [materials](Data/practice_modelsummary_hml.qmd)
 
 
 ## Recommended Textbooks
