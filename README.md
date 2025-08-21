@@ -32,7 +32,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 
   - Lecture 1: [data](Data/data_lec1.zip)
   - Lecture 3: [data](Data/data_lec3.zip)
-  - Lecture 4: [materials](Data/practice_modelsummary_hml.qmd); [Exercise](https://qingyincai.com/Lec4_exercise.html)
+  - Lecture 4: [materials](Data/practice_modelsummary_hml.qmd); [PDFinQuarto](Data/How_to_Create_PDF_in_Quarto.qmd); [Exercise](https://qingyincai.com/Lec4_exercise.html)
 
 
 ## Recommended Textbooks
