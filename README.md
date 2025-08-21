@@ -25,12 +25,13 @@ This is the home repository for the R-review class for incoming Ph.D. students i
   - Lecture 2: [html](https://joycqy.github.io/Lec2.html); [PDF](Lecture_2/Lec2.pdf); [Source Code](Lecture_2); [Recording](https://youtu.be/l06Hibgv8c4)
   - Lecture 3: [html](https://joycqy.github.io/Lec3.html); [Source Code](Lecture_3)
 
-## Data for Class Use
+## Data/Materials for Class Use
 
 * We’ll be working with public datasets in this class. I’ll upload it here so you can download.
 
   - Lecture 1: [data](Data/data_lec1.zip)
-  - Lecture 3: [data](Data/data_lec3.zip) 
+  - Lecture 3: [data](Data/data_lec3.zip)
+  - Lecture 4: [materials](Data/practice_modelsummary_html.qmd)
 
 
 ## Recommended Textbooks
