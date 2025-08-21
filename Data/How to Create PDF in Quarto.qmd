@@ -1,0 +1,136 @@
+---
+title: "How to Create a PDF in Quarto"
+author: "Qingyin Cai"
+date: today
+format:
+  pdf:
+    documentclass: article
+    fontsize: 12pt
+    geometry: margin=1in
+    toc: false
+    number-sections: true
+    fig-cap-location: top
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# Overview
+
+This documentation shows you how to generate a **PDF** from a Quarto (`.qmd`) document.
+
+::: callout-note
+**What you’ll learn**    
+
+1. Install the LaTeX engine (TinyTeX).  
+
+2. Write a minimal `.qmd` file.  
+
+3. Render to PDF from RStudio/VS Code/Terminal.  
+
+4. Troubleshoot common errors.
+:::
+
+# Prerequisites
+
+- **Quarto** installed: <https://quarto.org/docs/get-started/>
+- A LaTeX engine. The easiest is **TinyTeX** (lightweight TeX Live).  
+  - If you use R, run in R/RStudio:
+
+```r
+install.packages("tinytex")
+tinytex::install_tinytex()
+```
+
+- Alternatively install **TeX Live** (Linux/macOS) or **MiKTeX** (Windows).
+
+# Minimal Example
+
+Create a file named `mydoc.qmd` with the content below:
+
+```markdown
+---
+title: "My First PDF in Quarto"
+author: "Student Name"
+format: pdf
+---
+
+# Introduction
+
+This is my first PDF created with **Quarto**!
+```
+
+## Render the PDF
+
+**Option A: RStudio / VS Code**
+- Open `mydoc.qmd` and click **Render**.
+
+**Option B: Terminal**
+```bash
+quarto render mydoc.qmd
+```
+
+The output file will be `mydoc.pdf` in the same folder.
+
+# Customizing the PDF
+
+You can customize the PDF via YAML:
+
+```yaml
+---
+title: "Research Report"
+author: "Student Name"
+date: today
+format:
+  pdf:
+    documentclass: article
+    fontsize: 12pt
+    geometry: margin=1in
+    toc: true
+    number-sections: true
+---
+```
+
+## Sections, Equations, Figures, and Tables
+
+### Math
+Inline math like $y = \beta_0 + \beta_1 x + \varepsilon$, and a display equation:
+
+$$
+\hat{\beta} = (X'X)^{-1}X'y.
+$$
+
+### Figure
+
+```{r}
+#| label: fig-scatter
+#| fig-cap: "Example scatter plot"
+#| echo: false
+set.seed(1)
+x <- rnorm(100)
+y <- 0.5 * x + rnorm(100, sd = 0.5)
+plot(x, y, pch = 19, xlab = "x", ylab = "y")
+```
+
+### Table
+
+```{r}
+#| label: tab-summary
+#| tbl-cap: "Summary statistics"
+#| echo: false
+summary(data.frame(x = x, y = y))
+```
+
+
+# Troubleshooting
+
+**Problem:** *"LaTeX Error: File `xyz.sty` not found"*  
+**Fix:** Install the missing package. If using TinyTeX in R:
+
+```r
+tinytex::tlmgr_install("xyz")
+```
+
+**Problem:** *Quarto can’t find LaTeX*  
+**Fix:** Ensure TinyTeX/MiKTeX/TeX Live is installed and on your PATH; restart RStudio/VS Code.
