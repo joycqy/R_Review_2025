@@ -25,7 +25,7 @@ This is the home repository for the R-review class for incoming Ph.D. students i
   - Lecture 2: [html](https://joycqy.github.io/Lec2.html); [PDF](Lecture_2/Lec2.pdf); [Source Code](Lecture_2); [Recording](https://youtu.be/l06Hibgv8c4)
   - Lecture 3: [html](https://joycqy.github.io/Lec3.html); [PDF](Lecture_3/Lec3.pdf); [Source Code](Lecture_3)
   - Lecture 4: [html](https://joycqy.github.io/Lec4.html); [PDF](Lecture_4/Lec4.pdf); [Source Code](Lecture_4); [Recording](https://youtu.be/1Uuyx8crln4)
-  - Lecture 5: [html](https://joycqy.github.io/Lec5.html); [Source Code](Lecture_5); [Recording](https://youtu.be/Bno0VO8xTK8)
+  - Lecture 5: [html](https://joycqy.github.io/Lec5.html); [PDF](Lecture_5/Lec5.pdf); [Source Code](Lecture_5); [Recording](https://youtu.be/Bno0VO8xTK8)
 
 ## Data/Materials for Class Use
 
