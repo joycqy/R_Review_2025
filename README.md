@@ -13,8 +13,8 @@ This is the home repository for the R-review class for incoming Ph.D. students i
 | 8/18  | Introduction to R and RStudio interface, basic operation of R |
 | 8/19  | Data wrangling with `data.table` |
 | 8/20  | Data visualization with `ggplot2` |
-| 8/21  | Regression analysis with R, and Monte Carlo simulation |
-| 8/22  | Writing functions, and Review |
+| 8/21  | Regression analysis with R |
+| 8/22  | Writing functions, Monte Carlo simulation, and Review |
 
 ## Lecture Slides
 
